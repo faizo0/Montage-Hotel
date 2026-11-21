@@ -1,0 +1,6 @@
+{
+  "name": "THE MONTAGE SIGNATURE HOTEL",
+  "description": "Ultra-luxury five-star hospitality web platform and executive hotel management dashboard foundation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

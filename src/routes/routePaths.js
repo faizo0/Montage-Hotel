@@ -1,0 +1,31 @@
+export const PUBLIC_ROUTES = {
+  HOME: '/',
+  ABOUT: '/about',
+  ROOMS: '/rooms',
+  ROOM_DETAILS: '/rooms/:slug',
+  DINING: '/dining',
+  SPA: '/spa',
+  EXPERIENCES: '/experiences',
+  EVENTS: '/events',
+  GALLERY: '/gallery',
+  OFFERS: '/offers',
+  BOOKING: '/booking',
+  CONTACT: '/contact',
+  LOGIN: '/login',
+  GUEST_PORTAL: '/guest-portal',
+};
+
+export const ADMIN_ROUTES = {
+  ROOT: '/admin',
+  DASHBOARD: '/admin/dashboard',
+  RESERVATIONS: '/admin/reservations',
+  ROOMS: '/admin/rooms',
+  GUESTS: '/admin/guests',
+  HOUSEKEEPING: '/admin/housekeeping',
+  STAFF: '/admin/staff',
+  RESTAURANT: '/admin/restaurant',
+  PAYMENTS: '/admin/payments',
+  ANALYTICS: '/admin/analytics',
+  REPORTS: '/admin/reports',
+  SETTINGS: '/admin/settings',
+};

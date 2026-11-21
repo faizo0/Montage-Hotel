@@ -1,0 +1,41 @@
+/* ==========================================================================
+   THE MONTAGE SIGNATURE HOTEL — ANIMATION & MOTION FOUNDATIONS
+   ========================================================================== */
+
+@keyframes montageFadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.animate-fade-up {
+  animation: montageFadeUp var(--duration-slow) var(--ease-editorial) both;
+}
+
+.transition-luxury {
+  transition-property: color, background-color, border-color, opacity, transform;
+  transition-duration: var(--duration-fast);
+  transition-timing-function: var(--ease-editorial);
+}
+
+/* Future ScrollTrigger / Image Curtain Reveal Hooks */
+[data-reveal] {
+  will-change: transform, opacity;
+}
+
+/* Accessibility: Reduced Motion Compliance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

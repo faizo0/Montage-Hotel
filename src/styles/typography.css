@@ -1,0 +1,65 @@
+/* ==========================================================================
+   THE MONTAGE SIGNATURE HOTEL — 2026 EDITORIAL TYPOGRAPHY SYSTEM
+   ========================================================================== */
+
+.font-editorial {
+  font-family: var(--font-serif);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+.font-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Fluid Editorial Display Headings */
+.display-hero {
+  font-family: var(--font-serif);
+  font-size: clamp(2.6rem, 4.6vw, 4.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.022em;
+  font-weight: 500;
+  text-wrap: balance;
+  color: var(--color-charcoal);
+}
+
+.display-section {
+  font-family: var(--font-serif);
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  line-height: 1.12;
+  letter-spacing: -0.018em;
+  font-weight: 500;
+  text-wrap: balance;
+  color: var(--color-charcoal);
+}
+
+.display-card {
+  font-family: var(--font-serif);
+  font-size: clamp(1.38rem, 1.85vw, 1.82rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  color: var(--color-charcoal);
+}
+
+.editorial-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-burgundy);
+}
+
+.prose-measure {
+  max-width: var(--container-reading);
+  line-height: 1.72;
+}

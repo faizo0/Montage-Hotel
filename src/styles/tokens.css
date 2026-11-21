@@ -1,0 +1,73 @@
+/* ==========================================================================
+   THE MONTAGE SIGNATURE HOTEL — 2026 ROYAL BURGUNDY & WARM IVORY DESIGN TOKENS
+   ========================================================================== */
+
+:root {
+  /* Core Palette */
+  --color-ivory: #F8F3EA;
+  --color-cream: #F2EAE2;
+  --color-champagne: #E3D5CE;
+  --color-white: #FFFFFF;
+
+  /* Brand & Action Palette (Royal Burgundy & Soft Rose Beige) */
+  --color-burgundy: #702D43;
+  --color-burgundy-hover: #572133;
+  --color-rose-beige: #E9DDE0;
+  --color-rose-beige-hover: #DFCED3;
+
+  /* Champagne Gold Accent (Monogram, Micro-Details & Hairline Ornaments) */
+  --color-gold-accent: #C6A46A;
+  --color-gold-highlight: #E2CCA0;
+  --color-gold-deep: #997A46;
+
+  /* Typography Neutrals */
+  --color-charcoal: #29232A;
+  --color-charcoal-soft: #5B5258;
+  --color-muted: #877B80;
+  --color-border-hairline: #E3D5CE;
+  --color-border-subtle: rgba(41, 35, 42, 0.08);
+
+  /* Semantic Status (Zero Green — Royal Burgundy & Champagne Gold Hierarchy) */
+  --color-status-confirmed: #702D43;
+  --color-status-pending: #997A46;
+  --color-status-attention: #9E3B33;
+
+  /* Typography Families */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  /* Responsive Breakpoint References */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1440px;
+
+  /* Layout & Container Math */
+  --container-max: 1360px;
+  --container-reading: 72ch;
+  --navbar-height: 82px;
+  --sidebar-width: 264px;
+
+  /* Elevation & Radius */
+  --radius-xs: 6px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-subtle: 0 2px 6px rgba(41, 35, 42, 0.03), 0 14px 32px -18px rgba(41, 35, 42, 0.12);
+  --shadow-elevated: 0 20px 48px -20px rgba(112, 45, 67, 0.2);
+
+  /* Motion Timing */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-fast: 200ms;
+  --duration-base: 360ms;
+  --duration-slow: 650ms;
+
+  /* Z-Index Scale */
+  --z-base: 1;
+  --z-sticky: 20;
+  --z-header: 40;
+  --z-drawer: 50;
+  --z-modal: 60;
+}
